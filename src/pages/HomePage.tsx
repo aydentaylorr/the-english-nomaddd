@@ -8,39 +8,38 @@ const HomePage = () => {
     
     return (
         <div className="w-full">
-            <section className="py-16 bg-nomad-cream relative overflow-hidden">
+            <section className="bg-nomad-cream py-16 border-b border-gray-200 relative overflow-hidden">
               <div className="hidden md:block absolute top-12 right-12 w-16 h-16 bg-nomad-light rounded-full opacity-30"></div>
               <div className="hidden md:block absolute bottom-20 left-8 w-12 h-12 bg-nomad-coral rounded-full opacity-25"></div>
+            
               <div className="nomad-container">
                 <div className="flex flex-col-reverse md:flex-row items-center">
             
                   {/* Text Block */}
-                  <div className="md:w-1/2">
-                    <div className="px-4 sm:px-6 md:px-0 md:pr-8">
-                      <h1 className="text-4xl md:text-5xl lg:text-6xl font-rounded font-semibold text-nomad-dark mb-4">
-                        Journey Through English with Tamsin
-                      </h1>
-                      <p className="text-gray-600 text-lg mb-8">
-                        English lessons with a touch of adventure, delivered from the shores of Cape Town
-                        to students across the globe. Perfect your language skills with a teacher who lives
-                        the nomad lifestyle.
-                      </p>
-                      <div className="flex flex-col sm:flex-row gap-4">
-                        <a
-                          href="https://preply.com/en/?pref=NDA1NTk1Nw==&id=1752497948.153102&ep="
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <Button className="bg-nomad-dark hover:bg-nomad-dark/90 text-lg py-6 px-8">
-                            <span>Ready to Start Your English Journey</span>
-                          </Button>
-                        </a>
-                        <Link to="/about">
-                          <Button variant="outline" className="text-lg py-6 px-8">
-                            Learn More
-                          </Button>
-                        </Link>
-                      </div>
+                  <div className="md:w-1/2 px-4 sm:px-6 md:px-0 md:pr-12">
+                    <h1 className="text-4xl md:text-5xl lg:text-6xl font-rounded font-semibold text-nomad-dark mb-4">
+                      Journey Through English with Tamsin
+                    </h1>
+                    <p className="text-gray-600 text-lg mb-8">
+                      English lessons with a touch of adventure, delivered from the shores of Cape Town
+                      to students across the globe. Perfect your language skills with a teacher who lives
+                      the nomad lifestyle.
+                    </p>
+                    <div className="flex flex-col sm:flex-row gap-4">
+                      <a
+                        href="https://preply.com/en/?pref=NDA1NTk1Nw==&id=1752497948.153102&ep="
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Button className="bg-nomad-dark hover:bg-nomad-dark/90 text-lg py-6 px-8">
+                          <span>Ready to Start Your English Journey</span>
+                        </Button>
+                      </a>
+                      <Link to="/about">
+                        <Button variant="outline" className="text-lg py-6 px-8">
+                          Learn More
+                        </Button>
+                      </Link>
                     </div>
                   </div>
             
@@ -56,6 +55,7 @@ const HomePage = () => {
                       />
                     </div>
                   </div>
+            
                 </div>
               </div>
             </section>
