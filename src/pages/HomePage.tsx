@@ -9,47 +9,56 @@ const HomePage = () => {
     return (
         <div className="w-full">
             <section className="bg-nomad-cream pt-8 pb-16 md:pt-24 md:pb-24 border-b border-gray-200 relative overflow-hidden">
-                <div className="hidden md:block absolute top-12 right-12 right-24 w-16 h-16 bg-nomad-light rounded-full opacity-30"></div>
-                <div className="hidden md:block absolute bottom-20 left-8 w-12 h-12 bg-nomad-coral rounded-full opacity-25"></div>
-                <div className="nomad-container">
-                    <div className="flex flex-col-reverse md:flex-row items-center">
-                        <div className="md:w-1/2 md:pr-12">
-                            <h1 className="text-4xl md:text-5xl lg:text-6xl font-rounded font-semibold text-nomad-dark mb-4">Journey Through English with Tamsin</h1>
-                            <p className="text-gray-600 text-lg mb-8">
-                                English lessons with a touch of adventure, delivered from the shores of Cape Town
-                                to students across the globe. Perfect your language skills with a teacher who lives
-                                the nomad lifestyle.
-                            </p>
-                            <div className="flex flex-col sm:flex-row gap-4">
-                                <a
-                                    href="https://preply.com/en/?pref=NDA1NTk1Nw==&id=1752497948.153102&ep="
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    >
-                                    <Button className="bg-nomad-dark hover:bg-nomad-dark/90 text-lg py-6 px-8">
-                                        <span>Ready to Start Your English Journey</span>
-                                    </Button>
-                                </a>
-                                <Link to="/about">
-                                    <Button variant="outline" className="text-lg py-6 px-8">
-                                        Learn More
-                                    </Button>
-                                </Link>
-                            </div>
-                        </div>
-                        <div className="md:w-1/2 mb-8 md:mb-0">
-                            <div className="relative">
-                                <div className="hidden md:block absolute -top-6 -left-6 w-32 h-32 bg-nomad-coral rounded-full opacity-30"></div>
-                                <div className="hidden md:block absolute -bottom-6 -right-6 w-40 h-40 bg-nomad-light rounded-full opacity-30"></div>
-                                <img
-                                    src="/images/smiling-face-tams.jpg"
-                                    alt="Tamsin teaching"
-                                    className="rounded-lg shadow-lg relative z-10 w-full"
-                                />
-                            </div>
-                        </div>
+              <div className="hidden md:block absolute top-12 right-12 w-16 h-16 bg-nomad-light rounded-full opacity-30"></div>
+              <div className="hidden md:block absolute bottom-20 left-8 w-12 h-12 bg-nomad-coral rounded-full opacity-25"></div>
+            
+              {/* Shared padding container for both image and text */}
+              <div className="w-full px-4 sm:px-6 lg:px-8">
+                <div className="flex flex-col-reverse md:flex-row items-center">
+                  
+                  {/* Text block */}
+                  <div className="md:w-1/2 md:pr-12">
+                    <h1 className="text-4xl md:text-5xl lg:text-6xl font-rounded font-semibold text-nomad-dark mb-4">
+                      Journey Through English with Tamsin
+                    </h1>
+                    <p className="text-gray-600 text-lg mb-8">
+                      English lessons with a touch of adventure, delivered from the shores of Cape Town
+                      to students across the globe. Perfect your language skills with a teacher who lives
+                      the nomad lifestyle.
+                    </p>
+                    <div className="flex flex-col sm:flex-row gap-4">
+                      <a
+                        href="https://preply.com/en/?pref=NDA1NTk1Nw==&id=1752497948.153102&ep="
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Button className="bg-nomad-dark hover:bg-nomad-dark/90 text-lg py-6 px-8">
+                          <span>Ready to Start Your English Journey</span>
+                        </Button>
+                      </a>
+                      <Link to="/about">
+                        <Button variant="outline" className="text-lg py-6 px-8">
+                          Learn More
+                        </Button>
+                      </Link>
                     </div>
+                  </div>
+            
+                  {/* Image block */}
+                  <div className="md:w-1/2 mb-8 md:mb-0">
+                    <div className="relative">
+                      <div className="hidden md:block absolute -top-6 -left-6 w-32 h-32 bg-nomad-coral rounded-full opacity-30"></div>
+                      <div className="hidden md:block absolute -bottom-6 -right-6 w-40 h-40 bg-nomad-light rounded-full opacity-30"></div>
+                      <img
+                        src="/images/smiling-face-tams.jpg"
+                        alt="Tamsin teaching"
+                        className="rounded-lg shadow-lg relative z-10 w-full"
+                      />
+                    </div>
+                  </div>
+            
                 </div>
+              </div>
             </section>
 
             <section className="py-16 bg-white relative overflow-hidden">
