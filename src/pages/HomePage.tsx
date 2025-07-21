@@ -9,7 +9,6 @@ const HomePage = () => {
     return (
         <div className="w-full">
           <section className="bg-nomad-cream py-16 md:py-24 border-b border-gray-200 relative overflow-hidden">
-            {/* These shapes are hidden on mobile (< 768px) and visible on medium screens and up */}
             <div className="hidden md:block absolute top-12 right-24 w-16 h-16 bg-nomad-light rounded-full opacity-30"></div>
             <div className="hidden md:block absolute bottom-20 left-8 w-12 h-12 bg-nomad-coral rounded-full opacity-25"></div>
             <div className="nomad-container">
@@ -23,7 +22,7 @@ const HomePage = () => {
                     />
                   </div>
                 </div>
-                <div className="md:w-1/2 md:pr-8 order-2 md:order-1">
+                <div className="md:w-1/2 order-2 md:order-1">
                   <h1 className="text-4xl md:text-5xl lg:text-6xl font-rounded font-semibold text-nomad-dark mb-4">Journey Through English with Tamsin</h1>
                   <p className="text-gray-600 text-lg mb-8">
                     English lessons with a touch of adventure, delivered from the shores of Cape Town
