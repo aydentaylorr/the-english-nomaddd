@@ -8,11 +8,11 @@ const HomePage = () => {
     
     return (
         <div className="w-full">
-            <section className="py-16 bg-white relative overflow-hidden">
+            <section className="py-16 bg-nomad-cream relative overflow-hidden">
                 <div className="hidden md:block absolute top-12 right-12 right-24 w-16 h-16 bg-nomad-light rounded-full opacity-30"></div>
                 <div className="hidden md:block absolute bottom-20 left-8 w-12 h-12 bg-nomad-coral rounded-full opacity-25"></div>
                 <div className="nomad-container">
-                    <div className="flex flex-col md:flex-row items-center">
+                    <div className="flex flex-col-reverse md:flex-row items-center">
                         <div className="md:w-1/2 md:pr-8">
                             <h1 className="text-4xl md:text-5xl lg:text-6xl font-rounded font-semibold text-nomad-dark mb-4">Journey Through English with Tamsin</h1>
                             <p className="text-gray-600 text-lg mb-8">
