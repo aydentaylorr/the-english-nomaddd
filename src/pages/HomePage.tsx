@@ -8,7 +8,7 @@ const HomePage = () => {
     
     return (
         <div className="w-full">
-            <section className="bg-nomad-cream py-16 md:py-24 border-b border-gray-200 relative overflow-hidden">
+            <section className="py-16 bg-white relative overflow-hidden">
                 <div className="hidden md:block absolute top-12 right-12 right-24 w-16 h-16 bg-nomad-light rounded-full opacity-30"></div>
                 <div className="hidden md:block absolute bottom-20 left-8 w-12 h-12 bg-nomad-coral rounded-full opacity-25"></div>
                 <div className="nomad-container">
