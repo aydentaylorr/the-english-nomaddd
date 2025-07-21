@@ -37,7 +37,7 @@ const HomePage = () => {
                                 </Link>
                             </div>
                         </div>
-                        <div className="md:w-1/2 md-8 md:mb-0">
+                        <div className="md:w-1/2 mb-8 md:mb-0">
                             <div className="relative">
                                 <div className="hidden md:block absolute -top-6 -left-6 w-32 h-32 bg-nomad-coral rounded-full opacity-30"></div>
                                 <div className="hidden md:block absolute -bottom-6 -right-6 w-40 h-40 bg-nomad-light rounded-full opacity-30"></div>
