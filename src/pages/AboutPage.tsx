@@ -30,7 +30,7 @@ const AboutPage = () => {
                             <div className="relative">
                                 <div className="hidden md:block absolute -top-6 -right-6 w-32 h-32 bg-nomad-coral rounded-full opacity-30"></div>
                                 <img
-                                    src="public/images/sitting-by-desk-tams.jpg"
+                                    src="/images/sitting-by-desk-tams.jpg"
                                     alt="Tamsin at desk"
                                     className="rounded-lg shadow-lg relative z-10"
                                 />
@@ -97,7 +97,7 @@ const AboutPage = () => {
                     <div className="relative">
                         <div className="hidden md:block absolute -bottom-6 -left-6 w-32 h-32 bg-nomad-light rounded-full opacity-30"></div>
                         <img 
-                        src="public/images/overlooking-ocean-tams.jpg" 
+                        src="/images/overlooking-ocean-tams.jpg" 
                         alt="Tamsin watching sunset" 
                         className="rounded-lg shadow-lg relative z-10"
                         />
