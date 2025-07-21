@@ -42,7 +42,7 @@ const HomePage = () => {
                                 <div className="hidden md:block absolute -top-6 -left-6 w-32 h-32 bg-nomad-coral rounded-full opacity-30"></div>
                                 <div className="hidden md:block absolute -bottom-6 -right-6 w-40 h-40 bg-nomad-light rounded-full opacity-30"></div>
                                 <img
-                                    src="public/images/smiling-face-tams.jpg"
+                                    src="/images/smiling-face-tams.jpg"
                                     alt="Tamsin teaching"
                                     className="rounded-lg shadow-lg relative z-10 w-full"
                                 />
@@ -89,7 +89,7 @@ const HomePage = () => {
                     <div className="relative">
                         <div className="hidden md:block absolute -top-4 -right-4 w-32 h-32 bg-nomad-coral rounded-full opacity-30"></div>
                         <img 
-                        src="public/images/sitting-on-beach-tams.jpg" 
+                        src="/images/sitting-on-beach-tams.jpg" 
                         alt="Tamsin on the beach" 
                         className="rounded-lg shadow-lg relative z-10"
                         />
