@@ -13,7 +13,7 @@ const HomePage = () => {
                 <div className="hidden md:block absolute bottom-20 left-8 w-12 h-12 bg-nomad-coral rounded-full opacity-25"></div>
                 <div className="nomad-container">
                     <div className="flex flex-col-reverse md:flex-row items-center">
-                        <div className="md:w-1/2 px-4 md:px-0 md:pr-12">
+                        <div className="md:w-1/2 md:pr-12">
                             <h1 className="text-4xl md:text-5xl lg:text-6xl font-rounded font-semibold text-nomad-dark mb-4">Journey Through English with Tamsin</h1>
                             <p className="text-gray-600 text-lg mb-8">
                                 English lessons with a touch of adventure, delivered from the shores of Cape Town
