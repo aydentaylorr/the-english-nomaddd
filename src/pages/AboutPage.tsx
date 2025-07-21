@@ -26,7 +26,7 @@ const AboutPage = () => {
                                 figuratively.
                             </p>
                         </div>
-                        <div className="md:w-1/2 mt-8 md:mt-0">
+                        <div className="md:w-1/2 mb-10 md:mb-0">
                             <div className="relative">
                                 <div className="hidden md:block absolute -top-6 -right-6 w-32 h-32 bg-nomad-coral rounded-full opacity-30"></div>
                                 <img
