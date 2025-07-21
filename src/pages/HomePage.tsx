@@ -11,7 +11,7 @@ const HomePage = () => {
             <section className="bg-nomad-cream pt-8 pb-16 md:pt-24 md:pb-24 border-b border-gray-200 relative overflow-hidden">
                 <div className="hidden md:block absolute top-12 right-12 right-24 w-16 h-16 bg-nomad-light rounded-full opacity-30"></div>
                 <div className="hidden md:block absolute bottom-20 left-8 w-12 h-12 bg-nomad-coral rounded-full opacity-25"></div>
-                <div className="nomad-container px-4 md:px-0">
+                <div className="nomad-container px-8 md:px-0">
                     <div className="flex flex-col-reverse md:flex-row items-center">
                         <div className="md:w-1/2 px-4 md:px-0 md:pr-12">
                             <h1 className="text-4xl md:text-5xl lg:text-6xl font-rounded font-semibold text-nomad-dark mb-4">Journey Through English with Tamsin</h1>
