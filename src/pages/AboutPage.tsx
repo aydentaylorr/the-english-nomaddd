@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 const AboutPage = () => {
     return (
         <div className="w-full">
-            <section className="bg-nomad-cream py-16 border-b border-gray-200 relative overflow-hidden">
+            <section className="bg-nomad-cream pt-8 pb-16 md:pt-24 md:pb-24 border-b border-gray-200 relative overflow-hidden">
                 <div className="hidden md:block absolute top-10 right-20 w-16 h-16 bg-nomad-light rounded-full opacity-30"></div>
                 <div className="hidden md:block absolute bottom-20 left-10 w-12 h-12 bg-nomad-coral rounded-full opacity-30"></div>
                 <div className="nomad-container">
-                    <div className="flex flex-col md:flex-row items-center">
+                    <div className="flex flex-col-reverse md:flex-row items-center">
                         <div className="md:w-1/2 md:pr-12">
                             <h1 className="text-4xl md:text-5xl lg:text-6xl font-rounded font-semibold text-nomad-dark mb-4">About Tamsin</h1>
                             <p className="text-gray-600 text-lg mb-6">
