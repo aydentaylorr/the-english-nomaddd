@@ -18,7 +18,7 @@ const HomePage = () => {
                     <img 
                       src="/images/smiling-face-tams.jpg" 
                       alt="Tamsin teaching" 
-                      className="rounded-lg shadow-lg relative z-10 w-full mb-8 md:mb-0"
+                      className="rounded-lg shadow-lg relative z-10 w-3/4 md:w-full mb-8 md:mb-0"
                     />
                   </div>
                 </div>
