@@ -22,7 +22,7 @@ const HomePage = () => {
                     />
                   </div>
                 </div>
-                <div className="md:w-1/2 order-2 md:order-1 md:pr-12">
+                <div className="md:w-1/2 md:pr-12">
                   <h1 className="text-4xl md:text-5xl lg:text-6xl font-rounded font-semibold text-nomad-dark mb-4">Journey Through English with Tamsin</h1>
                   <p className="text-gray-600 text-lg mb-8">
                     English lessons with a touch of adventure, delivered from the shores of Cape Town
