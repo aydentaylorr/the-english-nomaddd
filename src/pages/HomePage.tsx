@@ -12,7 +12,7 @@ const HomePage = () => {
             <div className="hidden md:block absolute top-12 right-24 w-16 h-16 bg-nomad-light rounded-full opacity-30"></div>
             <div className="hidden md:block absolute bottom-20 left-8 w-12 h-12 bg-nomad-coral rounded-full opacity-25"></div>
             <div className="nomad-container">
-              <div className="flex flex-col md:flex-row items-center">
+              <div className="flex flex-col md:flex-row items-center md:gap-8 lg:gap-12">
                 <div className="md:w-1/2 mb-2 md:mb-0">
                   <div className="relative">
                     <img 
