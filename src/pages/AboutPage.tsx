@@ -32,7 +32,7 @@ const AboutPage = () => {
                                 <img
                                     src="/images/sitting-by-desk-tams.jpg"
                                     alt="Tamsin at desk"
-                                    className="rounded-lg shadow-lg relative z-10"
+                                    className="rounded-lg shadow-lg relative z-10 w-3/4 md:w-full mx-auto"
                                 />
                             </div>
                         </div>
