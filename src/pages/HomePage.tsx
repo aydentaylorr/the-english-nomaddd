@@ -14,7 +14,7 @@ const HomePage = () => {
                 <meta name="description" content="English with Tamsin — soulful lessons from Cape Town to the world." />
                 <meta property="og:title" content="The English Nomadd" />
                 <meta property="og:description" content="Join Tamsin on an English learning journey full of connection and confidence." />
-                <meta property="og:image" content="https://the-english-nomaddd.vercel.app/images/tamsin-og.jpg" />
+                <meta property="og:image" content="https://the-english-nomaddd.vercel.app/images/smiling-face-tams.jpg" />
                 <meta property="og:url" content="https://the-english-nomaddd.vercel.app/" />
                 <meta property="og:type" content="website" />
             </Helmet>
