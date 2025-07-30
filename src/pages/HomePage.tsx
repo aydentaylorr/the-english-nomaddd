@@ -17,8 +17,6 @@ const HomePage = () => {
                 <meta property="og:image" content="https://the-english-nomaddd.vercel.app/images/tamsin-og.jpg" />
                 <meta property="og:url" content="https://the-english-nomaddd.vercel.app/" />
                 <meta property="og:type" content="website" />
-                <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:image" content="https://the-english-nomaddd.vercel.app/images/tamsin-og.jpg" />
             </Helmet>
             <div className="w-full">
               <section className="bg-nomad-cream pt-8 pb-16 md:pt-24 md:pb-24 border-b border-gray-200 relative overflow-hidden">
